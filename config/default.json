@@ -1,0 +1,14 @@
+{
+  "server": {
+    "port": 3978
+  },
+  "nextcloud": {
+    "baseUrl": "https://example.nextcloud.com",
+    "oauth": {
+      "clientId": "change-me",
+      "clientSecret": "change-me",
+      "redirectPath": "/auth/callback"
+    },
+    "pollIntervalSeconds": 60
+  }
+}
